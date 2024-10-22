@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.costo-lineato{
+  text-decoration-line: line-through;
+}
+span{
+  text-decoration-line: line-through;
+  color: rgb(0, 0, 0);
+}
+p{
+
+}
+.testo-immagine1{
+ color: red;
+}
+.parte-due{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content:flex-start;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 50px auto;
+	max-width: 100%;
+}
+.container-foto{
+  display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 50px auto;
+	max-width: 1500px;
+}
+.card{
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+  
+}
+.col{
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: 600px;
+}
+a{
+  text-align: justify;
+  flex-direction: row;
+}
+.immagini{
+  height: 600px;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1{
+  width: 200px;
+}
+li{
+  list-style: none;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header .navbar .row{
+  display: block;
+  width: 900px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+header .container{
+  background-color: orange;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-height: 100px;
+}
+.container{
+  justify-content: space-between;
+  align-items: center;
+  background-color: #255EE9;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-height: 100px;
+  align-self: center;
+  margin: auto;
+}
+ 
