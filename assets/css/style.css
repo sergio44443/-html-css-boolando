@@ -1,74 +1,105 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.box{
+
+/* Generale */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  margin-top: -2px;
+}
+
+a {
+  text-align: justify;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  margin-right: 10px;
+  color: white;
+}
+
+span {
+  text-decoration-line: line-through;
+  color: rgb(0, 0, 0);
+}
+
+/* Box e Layout */
+.box {
   width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.costo-lineato{
-  text-decoration-line: line-through;
-}
-.icon-instagram{
-  color: aliceblue;
-}
-.icon-twitter{
-  color: aliceblue;
-}
-.icon-facebook{
-  color: aliceblue;
-}
-.icon-pinterest{
-  color: aliceblue;
-}
-.icon-dribbble{
-  color: aliceblue;
-}
-.anchor{
-    anchor-name: --header;
-}
-.box-header{
-  background-color: rgb(255, 111, 0);
-  padding: 10px 10px;
-  position: sticky;
 
-
-}
-
-span{
-  text-decoration-line: line-through;
-  color: rgb(0, 0, 0);
-}
-.link0{
+.flex {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.link1{
-  margin-right: 10px;
+
+.col {
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: 600px;
 }
-p{
-margin-top: -2px;
-}
-.immaginelogo{
-  width: 150px;
-}
-header{
+
+/* Header */
+header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
 }
-footer{
+
+.box-header {
+  background-color: rgb(255, 111, 0);
+  padding: 10px 10px;
+  position: sticky;
+}
+
+.box2-header {
+  margin-left: 213px;
+  margin-right: 213px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.box1header p {
+  color: white;
+}
+
+.link0 {
+  display: flex;
+}
+
+.link1 {
+  margin-right: 10px;
+}
+
+.immaginelogo {
+  width: 150px;
+}
+
+/* Footer */
+footer {
   height: 100px;
   background-color: #1c1d1e;
 }
-.ultimafrase{
+
+.ultimafrase {
   color: white;
 }
-.box2-footer{
+
+.box2-footer {
   margin-left: 213px;
   margin-right: 213px;
   display: flex;
@@ -76,132 +107,116 @@ footer{
   align-items: center;
   align-content: center;
 }
-.box2-header{
-  margin-left: 213px;
-  margin-right: 213px;
+
+.box1footer {
+  margin-top: 25px;
+}
+
+.box1footer p {
+  color: white;
+}
+
+.box2footer {
+  margin-top: 25px;
+}
+
+/* Icone Social */
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-pinterest,
+.icon-dribbble {
+  color: aliceblue;
+}
+
+.social {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-}
-li{
-  margin-right: 10px;
+  margin: 10px 10px;
   color: white;
 }
-.social{
+
+/* Cards e Container */
+.container {
   display: flex;
-  margin: 10px 10 px;
-  color: white;
-  
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 100%;
 }
-.box1footer p{
+
+.container-foto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 1500px;
+}
+
+.card {
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.immagini {
+  height: 600px;
+}
+
+.testo-immagine1 {
+  color: red;
+}
+
+.cuore1 {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  color: rgb(0, 0, 0);
+}
+
+/* Sconti e Label */
+.card .discount1 {
+  position: absolute;
+  bottom: 110px;
+  left: 0px;
+  background-color: red;
+  padding: 2px 8px;
   color: white;
 }
-.box1header p{
+
+.card .discount2 {
+  position: absolute;
+  bottom: 110px;
+  left: 55px;
+  background-color: green;
+  padding: 2px 8px;
   color: white;
 }
-.relative{
+
+.card .discount3 {
+  position: absolute;
+  bottom: 110px;
+  left: 0px;
+  background-color: green;
+  padding: 2px 8px;
+  color: white;
+}
+
+/* Altre classi */
+.logo1 {
+  width: 200px;
+}
+
+.relative {
   position: relative;
   bottom: 100px;
   left: 0;
 }
-.box1footer{
-  margin-top: 25px;
-}
-.box2footer{
-  margin-top: 25px;
+
+.costo-lineato {
+  text-decoration-line: line-through;
 }
 
-.testo-immagine1{
- color: red;
-}
-.parte-due{
-  display:flex;
-  flex-wrap: nowrap;
-  justify-content:flex-start;
-}
-.container{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 50px auto;
-	max-width: 100%;
-}
-.container-foto{
-  display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 50px auto;
-	max-width: 1500px;
-}
-.card{
-	position: relative;
-	margin: 10px;
-	cursor: pointer;
-  
-}
-.card .discount1{
-	position: absolute;
-	bottom: 110px;
-	left: 0px;
-	background-color: red;
-	padding: 2px 8px;
-	color: white;
-}
-.card .discount2{
-	position: absolute;
-	bottom: 110px;
-	left: 55px;
-	background-color: green;
-	padding: 2px 8px;
-	color: white;
-}
-.card .discount3{
-	position: absolute;
-	bottom: 110px;
-	left: 0px;
-	background-color: green;
-	padding: 2px 8px;
-	color: white;
-}
-.card:hover{
-  
-}
-.cuore1{
-	cursor: pointer;
-  position: absolute;
-	top: 10px;
-	right: 0px;
-	background-color: rgb(255, 255, 255);
-	padding: 10px 10px;
-	color: rgb(0, 0, 0);
-}
-.col{
-  flex-direction: row;
-  justify-content: space-between;
-  white-space: 600px;
-}
-a{
-  text-align: justify;
-  flex-direction: row;
-}
-.immagini{
-  height: 600px;
-}
-body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-.flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo1{
-  width: 200px;
-}
-li{
-  list-style: none;
-}
-
- 
