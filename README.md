@@ -11,3 +11,8 @@ Solo se i blocchi colorati funzionano passiamo al particolare...
 Realizzate il menu solo dopo aver realizzato il blocco delle card
 Bonus
 All’hover sul cuoricino, questo diventa rosso
+
+1. creare una base
+2. scrivere la base sia per html che css
+3. modifiche coding generale
+4. !!! RICONTROLLARE TUTTO !!!
