@@ -12,13 +12,106 @@
 .costo-lineato{
   text-decoration-line: line-through;
 }
+.icon-instagram{
+  color: aliceblue;
+}
+.icon-twitter{
+  color: aliceblue;
+}
+.icon-facebook{
+  color: aliceblue;
+}
+.icon-pinterest{
+  color: aliceblue;
+}
+.icon-dribbble{
+  color: aliceblue;
+}
+.anchor{
+    anchor-name: --header;
+}
+.box-header{
+  background-color: rgb(255, 111, 0);
+  padding: 10px 10px;
+  position: sticky;
+
+
+}
+
 span{
   text-decoration-line: line-through;
   color: rgb(0, 0, 0);
 }
-p{
-
+.link0{
+  display: flex;
 }
+.link1{
+  margin-right: 10px;
+}
+p{
+margin-top: -2px;
+}
+.immaginelogo{
+  width: 150px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+footer{
+  height: 100px;
+  background-color: #1c1d1e;
+}
+.ultimafrase{
+  color: white;
+}
+.box2-footer{
+  margin-left: 213px;
+  margin-right: 213px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.box2-header{
+  margin-left: 213px;
+  margin-right: 213px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+li{
+  margin-right: 10px;
+  color: white;
+}
+.social{
+  display: flex;
+  margin: 10px 10 px;
+  color: white;
+  
+}
+.box1footer p{
+  color: white;
+}
+.box1header p{
+  color: white;
+}
+.relative{
+  position: relative;
+  bottom: 100px;
+  left: 0;
+}
+.box1footer{
+  margin-top: 25px;
+}
+.box2footer{
+  margin-top: 25px;
+}
+
 .testo-immagine1{
  color: red;
 }
@@ -47,6 +140,42 @@ p{
 	cursor: pointer;
   
 }
+.card .discount1{
+	position: absolute;
+	bottom: 110px;
+	left: 0px;
+	background-color: red;
+	padding: 2px 8px;
+	color: white;
+}
+.card .discount2{
+	position: absolute;
+	bottom: 110px;
+	left: 55px;
+	background-color: green;
+	padding: 2px 8px;
+	color: white;
+}
+.card .discount3{
+	position: absolute;
+	bottom: 110px;
+	left: 0px;
+	background-color: green;
+	padding: 2px 8px;
+	color: white;
+}
+.card:hover{
+  
+}
+.cuore1{
+	cursor: pointer;
+  position: absolute;
+	top: 10px;
+	right: 0px;
+	background-color: rgb(255, 255, 255);
+	padding: 10px 10px;
+	color: rgb(0, 0, 0);
+}
 .col{
   flex-direction: row;
   justify-content: space-between;
@@ -74,35 +203,5 @@ body{
 li{
   list-style: none;
 }
-header nav ul{
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
 
-header .navbar .row{
-  display: block;
-  width: 900px;
-  height: 60px;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-}
-
-header .container{
-  background-color: orange;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  max-height: 100px;
-}
-.container{
-  justify-content: space-between;
-  align-items: center;
-  background-color: #255EE9;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  max-height: 100px;
-  align-self: center;
-  margin: auto;
-}
  
